@@ -1,0 +1,33 @@
+{
+  "name": "bears",
+  "version": "1.0.0",
+  "description": "## Homework",
+  "main": "index.js",
+  "scripts": {
+    "sassy": "node-sass --watch \"scss\" --output \"app/css\" --expanded --source-map true",
+    "start": "browser-sync start --server \"bears-website-master\" --files \"bears-website-master\"",
+    "boom!": "concurrently \"npm run start\" \"npm run sassy\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-foundations/session7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/front-end-foundations/session7/issues"
+  },
+  "homepage": "https://github.com/front-end-foundations/session7#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "concurrently": "^3.5.1",
+    "node-sass": "^4.7.2",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.3",
+    "tiny-slider": "^2.6.0"
+  }
+}

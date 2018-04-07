@@ -1,0 +1,176 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin: 0px;
+  background: #000000;
+  /*font-family: "Source Sans Pro",Tahoma,Arial,sans-serif;*/
+}
+
+#outerWrapper {
+	position: absolute;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+  a {
+  	text-decoration: none;
+  	color: #fff;
+  }
+
+header {
+	display: inline-block;
+}
+
+.main-title {
+	width: 100%;
+	display: block;
+	position: fixed;
+	bottom: 1%;
+    left: 7%;
+	margin: 0 auto;
+	font-size: 72px;}
+	@media (max-width: 759px){
+	.main-title {
+		font-size: 45px;}
+	}
+	@media (max-width: 560px){
+		.main-title {
+		font-size: 45px;}
+	}
+	@media (max-width: 455px){
+		.main-title {
+		font-size: 30px;}
+	}
+
+
+
+@media (max-width: 759px){
+
+nav {
+  position: absolute;
+  width: 20%;
+  left: 10px;
+  /*margin: 0 20%;*/
+  /*text-align: center;*/
+  /*justify-content: space-between;*/
+  /*width: 100%;*/
+}
+  /*top*/
+  /*background: #4e7c92;}*/
+nav ul {
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /*position: absolute;*/
+}
+nav li {
+	margin: 5px 0 0 5px;
+}
+}
+
+/* Social Icons */
+
+.socialicons {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+.socialicons .icon{
+    background: MAIN_COLOR;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 1px 8px;
+}
+
+/* VIDEO iFrame*/
+
+.my-slider {
+  /*position: absolute;*/
+  display: inline-block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.my-slider iframe {
+  position: absolute;
+  display: flex;
+  top: 2%;
+  left: 7%;
+  width: 85%;
+  height: 85%;
+}
+
+/*#socialicons .icon:hover{
+    background: HOVER_COLOR;
+}
+
+	/*Hamburger Bars
+
+/*nav #pull {
+    display: block;
+    height: 32px;
+    padding-top: 12px;
+    padding-left: 12px; }
+    @media (min-width: 760px) {
+      nav #pull {
+        display: none; } 
+}
+  nav #pull::after {
+    content: '';
+    background: url(../images/nav_icon.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-size: cover; 
+}
+
+
+}
+
+
+/* Hide nav menu on small screen*/
+
+/*@media (max-width: 759px){
+nav {
+	display: block;
+	width: 100%;
+	}
+
+nav li {display: none;
+	}
+}*/
+
+/**/
+
+/*Large Screen Nav*/
+
+@media (min-width: 760px){
+nav {
+  position: fixed;
+  width: 100%;
+  /*margin: 0 20%;*/
+  text-align: center;
+  /*justify-content: space-between;*/
+  /*width: 100%;*/
+}
+  /*top*/
+  /*background: #4e7c92;}*/
+nav ul {
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+}

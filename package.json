@@ -1,7 +1,7 @@
 {
   "name": "bears",
   "version": "1.0.0",
-  "description": "## Homework",
+  "description": "## Bears Website",
   "main": "index.js",
   "scripts": {
     "sassy": "node-sass --watch \"scss\" --output \"app/css\" --expanded --source-map true",
@@ -27,6 +27,7 @@
     "webpack-cli": "^2.0.14"
   },
   "dependencies": {
+    "@khoanguyen96/blueimp-gallery": "^2.30.0",
     "owl.carousel": "^2.3.3",
     "tiny-slider": "^2.6.0"
   }
